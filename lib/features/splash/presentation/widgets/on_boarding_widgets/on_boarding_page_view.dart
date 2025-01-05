@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/utils/assets.dart';
+import '../../../../../core/utils/assets.dart';
 import 'on_boarding_page.dart';
 
 class OnboardingPageView extends StatefulWidget {
@@ -28,23 +28,23 @@ class _OnboardingPageViewState extends State<OnboardingPageView> {
         OnboardingPage(
           onTap: widget.onTap,
           image: AssetsData.stylishLogo,
-          title: "Best place to learn programming",
+          title: "Choose Products",
           subTitle:
-              "In Course programming center, you will learn how to code in the right way with the best instructors.",
+              "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
         ),
         OnboardingPage(
           onTap: widget.onTap,
           image: AssetsData.stylishLogo,
-          title: "Excellent learning environment",
+          title: "Make Payment",
           subTitle:
-              "You can choose the constructor you like, and the academy provides continuous follow-up and periodic exams, and viewing the educational content on our platform to catch up on what you missed.",
+              "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
         ),
         OnboardingPage(
           onTap: widget.onTap,
           image: AssetsData.stylishLogo,
-          title: "Achieve your goal and be unique",
+          title: "Get Your Order",
           subTitle:
-              "After completing the course, you will be able to keep up with the labor market and obtain a job opportunity in your field or start your own project.",
+              "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
         ),
       ],
     );

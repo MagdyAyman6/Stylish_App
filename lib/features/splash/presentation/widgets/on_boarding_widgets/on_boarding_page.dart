@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:stylish/core/utils/assets.dart';
 import 'on_boarding_content.dart';
 
 class OnboardingPage extends StatelessWidget {
@@ -22,12 +23,12 @@ class OnboardingPage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Container(
-          width: 357.w,
-          height: 340.h,
-          decoration: BoxDecoration(
+          width: 300.w,
+          height: 300.h,
+          decoration: const BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage(image),
+              image: AssetImage(AssetsData.onBoarding1Img),
             ),
           ),
         ),

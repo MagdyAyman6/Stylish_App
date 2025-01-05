@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stylish/features/splash/presentation/widgets/on_boarding_view_body.dart';
+import 'package:stylish/features/splash/presentation/widgets/on_boarding_widgets/on_boarding_view_body.dart';
 
 import '../../../core/utils/app_color.dart';
 
@@ -9,7 +9,7 @@ class OnboardingView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: AppColor.kPrimaryColor,
+      backgroundColor: AppColor.kWhiteColor,
       body: SafeArea(
         child: OnboardingViewBody(),
       ),

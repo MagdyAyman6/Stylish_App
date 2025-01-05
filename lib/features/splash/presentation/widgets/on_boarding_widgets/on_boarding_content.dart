@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../../core/utils/app_color.dart';
-import '../../../../core/utils/styles.dart';
+import '../../../../../core/utils/app_color.dart';
+import '../../../../../core/utils/styles.dart';
 
 class OnboardingContent extends StatelessWidget {
   final String title;
@@ -19,23 +19,25 @@ class OnboardingContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 345.w,
-      height: 170.h,
+      width: 340.w,
+      height: 111.h,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(24),
-        color: AppColor.kPrimaryColor,
+        borderRadius: BorderRadius.circular(24.r),
+        color: Colors.transparent,
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
             title,
-            style: Styles.textStyle14,
+            style: Styles.textStyle24.copyWith(
+              color: AppColor.kBlackColor,
+            ),
           ),
-          SizedBox(height: 10.h),
+          10.verticalSpace,
           Text(
             subTitle,
-            style: Styles.textStyle14.copyWith(color: const Color(0xffFFC100)),
+            style: Styles.textStyle14.copyWith(color: AppColor.kSubtitleColor),
             maxLines: 5,
             textAlign: TextAlign.center,
           ),

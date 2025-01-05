@@ -19,8 +19,28 @@ abstract class Styles {
     color: AppColor.kHintColor,
   );
   static const textStyle14 = TextStyle(
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
     fontSize: 14,
     color: AppColor.kHintColor,
+  );
+  static const textStyle18 = TextStyle(
+    fontWeight: FontWeight.w600,
+    fontSize: 18,
+    color: AppColor.kBlackColor,
+  );
+  static const textStyle24 = TextStyle(
+    fontWeight: FontWeight.w800,
+    fontSize: 24,
+    color: AppColor.kBlackColor,
+  );
+  static const textStyle36 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: 36,
+    color: AppColor.kBlackColor,
+  );
+  static const textStyle40 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: 40,
+    color: AppColor.kPrimaryColor,
   );
 }

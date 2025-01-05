@@ -14,7 +14,7 @@ class StylishApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarColor: Colors.transparent,
+      statusBarColor: Colors.white,
     ));
     return ScreenUtilInit(
       designSize: const Size(375, 812),
