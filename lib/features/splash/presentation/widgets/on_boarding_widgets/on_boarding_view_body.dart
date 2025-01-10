@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 import 'package:stylish/core/utils/app_router.dart';
 import 'package:stylish/features/splash/presentation/widgets/on_boarding_widgets/get_started_button.dart';
 import 'package:stylish/features/splash/presentation/widgets/on_boarding_widgets/skip_button.dart';
-
 import '../../../../../core/utils/app_color.dart';
 import '../../../../../core/utils/styles.dart';
 import 'next_button.dart';

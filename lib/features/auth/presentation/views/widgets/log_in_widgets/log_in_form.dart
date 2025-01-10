@@ -80,11 +80,12 @@ class _LoginFormState extends State<LoginForm> {
             },
             style: Styles.textStyle18.copyWith(color: AppColor.kWhiteColor),
             color: AppColor.kPrimaryColor,
+            borderColor: Colors.transparent,
             width: 317.w,
             height: 55.h,
           ),
           75.verticalSpace,
-          const Align(
+          Align(
             alignment: Alignment.center,
             child: Text(
               "- OR Continue with -",

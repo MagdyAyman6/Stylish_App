@@ -89,11 +89,12 @@ class _SignUpFormState extends State<SignUpForm> {
             ),
             onTap: () {},
             color: AppColor.kPrimaryColor,
+            borderColor: Colors.transparent,
             width: 317.w,
             height: 55.h,
           ),
           40.verticalSpace,
-          const Align(
+          Align(
             alignment: Alignment.center,
             child: Text(
               "- OR Continue with -",

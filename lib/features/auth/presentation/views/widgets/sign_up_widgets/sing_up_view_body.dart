@@ -10,11 +10,11 @@ class SignUpViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding:  EdgeInsets.symmetric(horizontal: 29.w,vertical: 25.h),
+      padding: EdgeInsets.symmetric(horizontal: 29.w, vertical: 25.h),
       child: SingleChildScrollView(
         child: Column(
           children: [
-            const Align(
+            Align(
               alignment: Alignment.topLeft,
               child: Text(
                 "Create an\naccount",

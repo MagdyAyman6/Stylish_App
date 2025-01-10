@@ -20,7 +20,7 @@ class OnboardingContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 340.w,
-      height: 111.h,
+      height: 130.h,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(24.r),
         color: Colors.transparent,

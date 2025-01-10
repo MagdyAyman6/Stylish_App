@@ -12,7 +12,7 @@ class SkipButton extends StatelessWidget {
       onTap: () {
         GoRouter.of(context).pushReplacement(AppRouter.kMyLogin);
       },
-      child: const Text(
+      child: Text(
         "Skip",
         style: Styles.textStyle18,
       ),

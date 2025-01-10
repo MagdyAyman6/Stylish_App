@@ -17,7 +17,7 @@ class RegisterText extends StatelessWidget {
             text: 'Register',
             style: Styles.textStyle12.copyWith(color: AppColor.kPrimaryColor),
           ),
-          const TextSpan(
+          TextSpan(
             text: ' button, you agree \nto the public offer',
             style: Styles.textStyle12,
           ),

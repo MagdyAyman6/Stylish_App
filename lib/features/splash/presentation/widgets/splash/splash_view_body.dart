@@ -56,7 +56,7 @@ class _SplashBodyState extends State<SplashBody> {
               ),
             ),
             9.horizontalSpace,
-            const Text("Stylish", style: Styles.textStyle40),
+            Text("Stylish", style: Styles.textStyle40),
           ],
         ),
       ),

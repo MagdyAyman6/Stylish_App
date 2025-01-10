@@ -16,7 +16,7 @@ class ForgetPasswordViewBody extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Align(
+            Align(
               alignment: Alignment.topLeft,
               child: Text(
                 "Forgot\npassword?",
@@ -43,6 +43,7 @@ class ForgetPasswordViewBody extends StatelessWidget {
               style: Styles.textStyle18.copyWith(color: AppColor.kWhiteColor),
               onTap: () {},
               color: AppColor.kPrimaryColor,
+              borderColor: Colors.transparent,
               width: 317.w,
               height: 55.h,
             ),

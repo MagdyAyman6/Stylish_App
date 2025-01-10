@@ -13,7 +13,7 @@ class GetStartedButton extends StatelessWidget {
     return TextButton(
       iconAlignment: IconAlignment.start,
       onPressed: () {
-        GoRouter.of(context).pushReplacement(AppRouter.kMyLogin);
+        GoRouter.of(context).pushReplacement(AppRouter.kGetStarted);
       },
       child: Text(
         "Get Started",

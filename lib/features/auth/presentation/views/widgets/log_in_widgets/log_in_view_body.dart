@@ -14,7 +14,7 @@ class LogInViewBody extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            const Align(
+            Align(
               alignment: Alignment.topLeft,
               child: Text(
                 "Welcome\nBack!",
