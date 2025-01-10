@@ -19,6 +19,7 @@ abstract class AppColor {
   static const kStarRatingColor = Color(0xffEDB310);
   static const kReviewCountColor = Color(0xffA4A9B3);
   static const kTrendingContainer = Color(0xffFD6E87);
+  static const kHomeRewardCover = Color(0xffE7E7EB);
 // static const Color primaryColor = Color(0xFF6200EA);
 // static const Color primaryLight = Color(0xFFBB86FC);
 // static const Color primaryDark = Color(0xFF3700B3);

@@ -16,7 +16,7 @@ class HomeRewardCard extends StatelessWidget {
       height: 171.h,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(6.r),
-        color: AppColor.kWhiteColor,
+        color: AppColor.kHomeRewardCover.withOpacity(0.3),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
