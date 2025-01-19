@@ -59,7 +59,7 @@ class GetStartedViewBody extends StatelessWidget {
                 text: "Get Started",
                 style: Styles.textStyle24.copyWith(color: AppColor.kWhiteColor),
                 onTap: () {
-                  GoRouter.of(context).pushReplacement(AppRouter.kMyHomeView);
+                  GoRouter.of(context).pushReplacement(AppRouter.kMyLogin);
                 },
                 color: AppColor.kPrimaryColor,
                 borderColor: Colors.transparent,

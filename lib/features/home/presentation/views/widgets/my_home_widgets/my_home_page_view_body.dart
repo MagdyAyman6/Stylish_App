@@ -7,7 +7,7 @@ import 'package:stylish/features/home/presentation/views/widgets/my_home_widgets
 import 'package:stylish/features/home/presentation/views/widgets/my_home_widgets/summer_sale_card/summer_sale_card.dart';
 import 'package:stylish/features/home/presentation/views/widgets/my_home_widgets/trending_product_widgets/trending_product_container.dart';
 import 'package:stylish/features/home/presentation/views/widgets/my_home_widgets/trending_product_widgets/trending_product_list_view.dart';
-import 'all_feature_widgets/all_feature_list_view.dart';
+import 'all_feature_list_view/all_feature_list_view.dart';
 import 'deal_of_day_widgets/deal_day_list_view.dart';
 import 'home_features_bar.dart';
 import 'home_offer_card/home_offer_card.dart';

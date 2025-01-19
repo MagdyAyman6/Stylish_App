@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 import 'package:stylish/core/utils/app_color.dart';
 import 'package:stylish/core/widgets/custom_button.dart';
 import 'package:stylish/core/widgets/custom_text_form_field.dart';
+import '../../../../../../core/utils/app_router.dart';
 import '../../../../../../core/utils/styles.dart';
 
 class ForgetPasswordViewBody extends StatelessWidget {
@@ -41,7 +43,9 @@ class ForgetPasswordViewBody extends StatelessWidget {
             CustomButton(
               text: "Submit",
               style: Styles.textStyle18.copyWith(color: AppColor.kWhiteColor),
-              onTap: () {},
+              onTap: () {
+                GoRouter.of(context).pushReplacement(AppRouter.kMyHomeView);
+              },
               color: AppColor.kPrimaryColor,
               borderColor: Colors.transparent,
               width: 317.w,

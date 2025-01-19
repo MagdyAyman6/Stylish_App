@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stylish/core/utils/app_color.dart';
 import 'package:stylish/core/utils/assets.dart';
-import 'package:stylish/features/home/presentation/views/widgets/my_home_widgets/all_feature_widgets/all_feature_item.dart';
+
+import 'all_feature_item.dart';
 
 class AllFeatureListView extends StatefulWidget {
   const AllFeatureListView({super.key});
@@ -12,7 +13,7 @@ class AllFeatureListView extends StatefulWidget {
 }
 
 class _AllFeatureListViewState extends State<AllFeatureListView> {
-  final List<Map<String, String>> features = [
+  final List<Map<String, dynamic>> features = [
     {
       'name': 'Beauty',
       'image': AssetsData.beautyFeatureImg,

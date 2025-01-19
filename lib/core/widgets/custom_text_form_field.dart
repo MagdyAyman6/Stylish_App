@@ -37,10 +37,10 @@ class CustomTextFormField extends StatelessWidget {
       validator: validator,
       maxLines: maxLiens,
       decoration: InputDecoration(
-        contentPadding: EdgeInsets.symmetric(vertical: 17.h),
+        contentPadding: EdgeInsets.symmetric(vertical: 17.h, horizontal: 16.w),
         hintText: hint,
         fillColor: AppColor.kFormFieldBackground,
-        filled: true,
+        // filled: true,
         prefixIcon: prefixIcon,
         suffixIcon: suffixIcon,
         hintStyle: Styles.textStyle12.copyWith(fontWeight: FontWeight.w400),

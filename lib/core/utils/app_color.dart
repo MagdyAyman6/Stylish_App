@@ -6,6 +6,7 @@ abstract class AppColor {
   static const kWhiteColor = Color(0xffFFFFFF);
   static const kGreyColor = Color(0xffbbbbbb);
   static const kHintColor = Color(0xff676767);
+  static const kBackgroundScaffold = Color(0xffFDFDFD);
   static const kIconFormField = Color(0xff626262);
   static const kSubtitleColor = Color(0xffA8A8A9);
   static const kIndicatorColor = Color(0xff17223B);
@@ -20,6 +21,11 @@ abstract class AppColor {
   static const kReviewCountColor = Color(0xffA4A9B3);
   static const kTrendingContainer = Color(0xffFD6E87);
   static const kHomeRewardCover = Color(0xffE7E7EB);
+  static const kSelectedItemNavBar = Color(0xffEB3030);
+  static const kDividerColor = Color(0xffC6C6C6);
+  static const kSubtitle3Color = Color(0xff4C5059);
+  static const kPaymentNumberColor = Color(0xff6E7179);
+  static const kAlertDialogTitle = Color(0xff222222);
 // static const Color primaryColor = Color(0xFF6200EA);
 // static const Color primaryLight = Color(0xFFBB86FC);
 // static const Color primaryDark = Color(0xFF3700B3);

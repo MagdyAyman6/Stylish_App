@@ -5,7 +5,7 @@ import 'package:stylish/core/utils/styles.dart';
 
 class CustomRatingStar extends StatelessWidget {
   final double rating;
-  final int reviewCount;
+  final double reviewCount;
 
   const CustomRatingStar(
       {super.key, required this.rating, required this.reviewCount});

@@ -21,4 +21,9 @@ abstract class AssetsData {
   static const watchImg = "assets/images/watch_img.png";
   static const summerCover = "assets/images/summer_cover.png";
   static const sponsoredImg = "assets/images/sponsored_cover.png";
+  static const menStarryImg = "assets/images/men_starry_img.png";
+  static const visaLogo = "assets/images/visa_logo.png";
+  static const paypalLogo = "assets/images/paypal_logo.png";
+  static const maestroLogo = "assets/images/maestro_logo.png";
+  static const appleLogo = "assets/images/apple_logo.png";
 }

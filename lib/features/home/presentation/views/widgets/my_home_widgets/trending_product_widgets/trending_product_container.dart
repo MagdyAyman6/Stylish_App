@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 import 'package:stylish/core/utils/app_color.dart';
+import 'package:stylish/core/utils/app_router.dart';
 import 'package:stylish/core/utils/styles.dart';
 import 'package:stylish/core/widgets/custom_button.dart';
 
@@ -55,7 +57,9 @@ class TrendingProduct extends StatelessWidget {
               fontWeight: FontWeight.w600,
               color: AppColor.kWhiteColor,
             ),
-            onTap: () {},
+            onTap: () {
+              GoRouter.of(context).pushReplacement(AppRouter.kWishlist);
+            },
             color: Colors.transparent,
             width: 90.w,
             height: 30.h,

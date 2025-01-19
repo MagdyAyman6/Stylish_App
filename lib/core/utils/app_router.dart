@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:stylish/features/home/presentation/views/my_wishlist_view.dart';
+import 'package:stylish/features/home/presentation/views/profile_view.dart';
 import 'package:stylish/features/splash/presentation/get_started_view.dart';
 import '../../features/auth/presentation/views/forget_password_view.dart';
 import '../../features/auth/presentation/views/log_in_view.dart';
 import '../../features/auth/presentation/views/sign_up_view.dart';
-import '../../features/home/presentation/my_home_page_view.dart';
+import '../../features/home/presentation/views/my_home_page_view.dart';
+import '../../features/home/presentation/views/shipping_view.dart';
+import '../../features/home/presentation/views/widgets/checkout_widgets/checkout_body.dart';
 import '../../features/splash/presentation/splash_view.dart';
 
 abstract class AppRouter {
@@ -15,6 +19,10 @@ abstract class AppRouter {
   static const kMyHomeView = '/MyHomeView';
   static const kMyLogin = '/login';
   static const kGetStarted = '/GetStartedView';
+  static const kProfileView = '/Profile';
+  static const kCheckout = '/Checkout';
+  static const kWishlist = '/Wishlist';
+  static const kShipping = '/Shipping';
 
   static final GoRouter router = GoRouter(
     routes: <RouteBase>[
@@ -42,12 +50,30 @@ abstract class AppRouter {
           return const ForgetPasswordView();
         },
       ),
-      // GoRoute(
-      //   path: kVerifyCodeView,
-      //   builder: (BuildContext context, GoRouterState state) {
-      //     return const VerifyCodeView();
-      //   },
-      // ),
+      GoRoute(
+        path: kProfileView,
+        builder: (BuildContext context, GoRouterState state) {
+          return const ProfileView();
+        },
+      ),
+      GoRoute(
+        path: kCheckout,
+        builder: (BuildContext context, GoRouterState state) {
+          return const CheckoutBody();
+        },
+      ),
+      GoRoute(
+        path: kShipping,
+        builder: (BuildContext context, GoRouterState state) {
+          return const ShippingView();
+        },
+      ),
+      GoRoute(
+        path: kWishlist,
+        builder: (BuildContext context, GoRouterState state) {
+          return const MyWishlistView();
+        },
+      ),
       GoRoute(
         path: kMyHomeView,
         builder: (BuildContext context, GoRouterState state) {
@@ -55,7 +81,7 @@ abstract class AppRouter {
         },
       ),
       GoRoute(
-        path: '/login',
+        path: kMyLogin,
         builder: (context, state) => const LogInView(),
       ),
     ],
