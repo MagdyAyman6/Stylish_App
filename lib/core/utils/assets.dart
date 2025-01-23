@@ -26,4 +26,5 @@ abstract class AssetsData {
   static const paypalLogo = "assets/images/paypal_logo.png";
   static const maestroLogo = "assets/images/maestro_logo.png";
   static const appleLogo = "assets/images/apple_logo.png";
+  static const nikeSneakers = "assets/images/nike_sneakers.png";
 }

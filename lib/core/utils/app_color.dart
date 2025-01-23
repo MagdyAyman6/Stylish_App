@@ -26,6 +26,9 @@ abstract class AppColor {
   static const kSubtitle3Color = Color(0xff4C5059);
   static const kPaymentNumberColor = Color(0xff6E7179);
   static const kAlertDialogTitle = Color(0xff222222);
+  static const kCartIconColor = Color(0xff323232);
+  static const kCustomContainerBorder = Color(0xff828282);
+  static const kRoseColor = Color(0xffFFCCD5);
 // static const Color primaryColor = Color(0xFF6200EA);
 // static const Color primaryLight = Color(0xFFBB86FC);
 // static const Color primaryDark = Color(0xFF3700B3);

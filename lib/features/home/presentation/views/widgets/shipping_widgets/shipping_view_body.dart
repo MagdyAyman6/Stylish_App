@@ -21,7 +21,7 @@ class ShippingViewBody extends StatelessWidget {
         forceMaterialTransparency: true,
         leading: IconButton(
           onPressed: () {
-            GoRouter.of(context).pushReplacement(AppRouter.kCheckout);
+            GoRouter.of(context).pushReplacement(AppRouter.kPlaceOrder);
           },
           icon: Icon(
             Icons.arrow_back,

@@ -19,7 +19,8 @@ class CheckoutBody extends StatelessWidget {
         forceMaterialTransparency: true,
         leading: IconButton(
           onPressed: () {
-            GoRouter.of(context).pushReplacement(AppRouter.kProfileView);
+            // GoRouter.of(context).pop();
+            GoRouter.of(context).pushReplacement(AppRouter.kCartView);
           },
           icon: Icon(
             Icons.arrow_back,

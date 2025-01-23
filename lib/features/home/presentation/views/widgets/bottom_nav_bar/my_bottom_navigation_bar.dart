@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stylish/core/utils/app_color.dart';
-import 'package:stylish/features/home/presentation/views/place_order_view.dart';
 import 'package:stylish/features/home/presentation/views/widgets/my_home_widgets/my_home_page_view_body.dart';
+import '../../cart_view.dart';
 import '../../my_wishlist_view.dart';
 
 class MyBottomNavigationBar extends StatefulWidget {
@@ -14,7 +14,7 @@ class MyBottomNavigationBar extends StatefulWidget {
 
 class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   int _currentIndex = 0;
-  final PageController _pageController = PageController(initialPage: 0);
+  final PageController _pageController = PageController();
 
   @override
   void dispose() {
@@ -41,8 +41,8 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
         children: [
           MyHomePageViewBody(controller: _pageController),
           const MyWishlistView(),
-          const Center(child: Text("Cart Screen")),
-          const PlaceOrderView(),
+          const CartView(),
+          const Center(child: Text("Search Screen")),
           const Center(child: Text("Settings Screen")),
         ],
       ),

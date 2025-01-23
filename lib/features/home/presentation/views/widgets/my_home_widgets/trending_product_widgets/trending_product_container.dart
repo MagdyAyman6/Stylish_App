@@ -58,7 +58,7 @@ class TrendingProduct extends StatelessWidget {
               color: AppColor.kWhiteColor,
             ),
             onTap: () {
-              GoRouter.of(context).pushReplacement(AppRouter.kWishlist);
+              GoRouter.of(context).push(AppRouter.kWishlist);
             },
             color: Colors.transparent,
             width: 90.w,

@@ -7,8 +7,11 @@ class CustomRatingStar extends StatelessWidget {
   final double rating;
   final double reviewCount;
 
-  const CustomRatingStar(
-      {super.key, required this.rating, required this.reviewCount});
+  const CustomRatingStar({
+    super.key,
+    required this.rating,
+    required this.reviewCount,
+  });
 
   @override
   Widget build(BuildContext context) {

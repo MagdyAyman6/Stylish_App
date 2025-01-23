@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
+import 'package:stylish/core/utils/app_router.dart';
 
 import '../../../../../../core/utils/app_color.dart';
-import '../../../../../../core/utils/app_router.dart';
 import '../../../../../../core/utils/styles.dart';
 
 class CustomAppBar extends StatefulWidget {
@@ -21,7 +21,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
       children: [
         GestureDetector(
           onTap: () {
-            // GoRouter.of(context).
+            GoRouter.of(context).pushReplacement(AppRouter.kMyBottomNavBar);
           },
           child: Icon(
             Icons.arrow_back_ios_new,
