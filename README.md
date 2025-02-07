@@ -11,9 +11,9 @@ A modern, elegant, and feature-rich e-commerce mobile application built with Flu
 - Payment method
 
 ## Tech Stack:
-Flutter - Frontend
-Dart - Programming Language
-MVVM - Architecture pattern used for organizing the app
+- Flutter - Frontend
+- Dart - Programming Language
+- MVVM - Architecture pattern used for organizing the app
 
 ## Screenshots
 
