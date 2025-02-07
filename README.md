@@ -20,10 +20,9 @@ A modern, elegant, and feature-rich e-commerce mobile application built with Flu
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/MagdyAyman6/Stylish_App.git
-2. Navigate to the project directory: cd Stylish_App
-3. Install dependencies: flutter pub get
-4. Run the app: flutter run
+1. Clone the repository:
 
+   ```sh
+   git clone https://github.com/MagdyAyman6/Stylish_App.git
    
 
