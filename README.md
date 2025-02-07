@@ -27,8 +27,11 @@ A modern, elegant, and feature-rich e-commerce mobile application built with Flu
 2. Navigate to the project directory:
    ```sh
    cd Stylish_App
-
-
+3. Install dependencies:
+   ```sh
+   flutter pub get
+4. Run the app:
+   ```sh
+   flutter run
 
    
-
