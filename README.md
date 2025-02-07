@@ -26,7 +26,7 @@ A modern, elegant, and feature-rich e-commerce mobile application built with Flu
    git clone https://github.com/MagdyAyman6/Stylish_App.git
 2. Navigate to the project directory:
    ```sh
-cd Stylish_App
+   cd Stylish_App
 
 
 
