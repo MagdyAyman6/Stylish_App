@@ -24,5 +24,23 @@ A modern, elegant, and feature-rich e-commerce mobile application built with Flu
 
    ```sh
    git clone https://github.com/MagdyAyman6/Stylish_App.git
+Navigate to the project directory:
+
+sh
+Copy
+Edit
+cd Stylish_App
+Install dependencies:
+
+sh
+Copy
+Edit
+flutter pub get
+Run the app:
+
+sh
+Copy
+Edit
+flutter run
    
 
