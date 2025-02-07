@@ -1,6 +1,6 @@
-# stylish
+# Stylish
 
-A new Flutter project.
+A Flutter Project 'Stylish' is an E-Commerce app.
 
 ## Getting Started
 
