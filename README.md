@@ -1,4 +1,4 @@
-# Stylish
+# Stylish_App
 
 A modern, elegant, and feature-rich e-commerce mobile application built with Flutter.
 
@@ -15,13 +15,11 @@ A modern, elegant, and feature-rich e-commerce mobile application built with Flu
 - Dart - Programming Language
 - MVVM - Architecture pattern used for organizing the app
 
-## Screenshots
+## Screenshots:
 
-
-## Installation
+## Installation:
 
 1. Clone the repository:
-
    ```sh
    git clone https://github.com/MagdyAyman6/Stylish_App.git
 2. Navigate to the project directory:
@@ -33,5 +31,5 @@ A modern, elegant, and feature-rich e-commerce mobile application built with Flu
 4. Run the app:
    ```sh
    flutter run
-
-   
+## Contact:
+- Email: eng.magdyayman@gmail.com
