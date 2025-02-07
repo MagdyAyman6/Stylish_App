@@ -1,16 +1,29 @@
 # Stylish
 
-A Flutter Project 'Stylish' is an E-Commerce app.
+A modern, elegant, and feature-rich e-commerce mobile application built with Flutter.
 
-## Getting Started
+## Features:
+- User authencation
+- Browse and search for products  
+- Featured deals and trending items  
+- Add items to the cart and checkout  
+- Order tracking and history
+- Payment method
 
-This project is a starting point for a Flutter application.
+## Tech Stack:
+Flutter - Frontend
+Dart - Programming Language
+MVVM - Architecture pattern used for organizing the app
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone the repository: git clone https://github.com/MagdyAyman6/Stylish_App.git
+2. Navigate to the project directory: cd Stylish_App
+3. Install dependencies: flutter pub get
+4. Run the app: flutter run
+
+   
+
